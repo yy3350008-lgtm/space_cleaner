@@ -1,0 +1,4 @@
+rich>=13.0
+questionary>=2.0
+tqdm>=4.66
+send2trash>=1.8

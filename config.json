@@ -1,0 +1,23 @@
+{
+  "scan_targets": [
+    "%USERPROFILE%\\Downloads",
+    "%USERPROFILE%\\Desktop"
+  ],
+  "quarantine_dir": "%USERPROFILE%\\SpaceCleaner_Quarantine",
+  "exclude_dirs": [
+    "%USERPROFILE%\\Documents",
+    "%USERPROFILE%\\Pictures",
+    "%USERPROFILE%\\Videos"
+  ],
+  "exclude_extensions": [
+    ".py", ".docx", ".xlsx", ".pdf", ".txt"
+  ],
+  "min_file_size_kb": 500,
+  "quarantine_cleanup_after_days": 3,
+  "report_dir": "",
+  "rule_source": "builtin",
+  "cleanup_mode": "conservative",
+  "log_retention_days": 3,
+  "state_dir": "",
+  "quarantine_cleanup_after_zip_days": 3
+}

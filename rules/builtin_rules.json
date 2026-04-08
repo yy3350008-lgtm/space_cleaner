@@ -1,0 +1,52 @@
+{
+  "name_patterns": [
+    "*Setup*.exe",
+    "*Installer*.msi",
+    "ChromeSetup",
+    "FirefoxInstaller",
+    "FileStorage",
+    "WeChat Files",
+    "Tencent Files",
+    "QQ",
+    "MsgAttach",
+    "Image_Cache"
+  ],
+  "suffix_patterns": [
+    "(1)",
+    "(2)"
+  ],
+  "target_extensions": [
+    ".tmp",
+    ".dat",
+    ".bin",
+    ".msg",
+    ".idx",
+    ".db-wal",
+    ".db-shm",
+    ".log",
+    ".old",
+    ".msi"
+  ],
+  "log_extensions": [
+    ".log",
+    ".old"
+  ],
+  "companion_extensions": [
+    ".cab",
+    ".bin",
+    ".dat",
+    ".inf"
+  ],
+  "modes": {
+    "conservative": [
+      "name_patterns",
+      "suffix_patterns"
+    ],
+    "standard": [
+      "name_patterns",
+      "suffix_patterns",
+      "target_extensions",
+      "log_extensions"
+    ]
+  }
+}

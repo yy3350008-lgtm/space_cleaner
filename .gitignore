@@ -1,0 +1,20 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+ENV/
+
+# 项目产生的数据与日志
+state_file.json
+*.log
+preview_*.txt
+SpaceCleaner_Quarantine/
+
+# 编译产物
+build/
+dist/
+*.exe
+*.spec
