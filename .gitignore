@@ -1,20 +1,23 @@
-# Python 缓存
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
 
-# 虚拟环境
+# Virtualenv
 venv/
 ENV/
 
-# 项目产生的数据与日志
+# Project generated files
 state_file.json
 *.log
 preview_*.txt
 SpaceCleaner_Quarantine/
 
-# 编译产物
+# Build artifacts
 build/
 dist/
 *.exe
 *.spec
+release/*.zip
+.pytest_cache/
